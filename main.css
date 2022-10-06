@@ -1,0 +1,92 @@
+.tab-body-view {
+    border: 2px solid rgb(53, 47, 47);
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+  }
+.tab-head-single{ 
+    margin-left: 1.2em;
+    border-radius: 20%;
+    border: 2px solid red;
+    color: blue;
+    background-color: #4CAF50; /* Green */
+    border:aqua;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.tab-head-single:hover{
+    color: rgb(251, 255, 0);
+    background-color: #4ca5af; 
+}
+
+
+  .avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .tab-button-body
+  {
+   margin-left: 10em;
+   border-radius: 20%;
+    border: 2px solid red;
+   color: blue;
+   background-color: #534caf; /* Green */
+   border:aqua;
+   color: white;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+  }
+
+  .button  {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20%;
+    border: 2px solid red;
+  }
+
+    
+    
+    .list-type1 a:hover{
+    background: #d6d4d4;
+    text-decoration:none;
+    transform: scale(1.1);
+    padding:20px;
+    }
+    .myData{
+      width:400px;
+      margin:0 auto;  counter-reset: li;
+      list-style: none;
+      *list-style: decimal;
+      font-size: 15px;
+      font-family: 'Raleway', sans-serif;
+      padding: 0;
+      margin-bottom: 4em;
+      position: relative;
+      display: block;
+      padding: .10em .10em .4em 2em;
+      *padding: .10em;
+      margin: .5em 0;
+      background: #93C775;
+      color: #000;
+      text-decoration: none;
+      -moz-border-radius: .3em;
+      -webkit-border-radius: .3em;
+      border-radius: 10em;
+      transition: all .2s ease-in-out;
+    }
